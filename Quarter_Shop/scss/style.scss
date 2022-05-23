@@ -1,0 +1,493 @@
+.headTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+
+    .mailLocation {
+        display: inline;
+
+        a {
+            text-decoration: none;
+            color: white;
+
+            i {
+                color: orangered;
+            }
+        }
+
+        a:hover {
+            color: orangered;
+        }
+
+        span {
+            color: white;
+            margin-left: 20px;
+
+            i {
+                color: orangered;
+            }
+        }
+
+        span:hover {
+            color: orangered;
+            cursor: pointer;
+            transition: all 1s;
+        }
+    }
+
+    .addListing {
+        display: inline;
+
+        ul {
+            list-style: none;
+            display: inline;
+
+            li {
+                display: inline;
+                margin-right: 10px;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.headBott {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+
+    .menu {
+        display: inline;
+
+        ul {
+            list-style: none;
+            display: inline;
+
+            li {
+                display: inline;
+                margin-right: 15px;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+
+            li:hover {}
+        }
+    }
+
+    .searchShop {
+        display: inline;
+
+        ul {
+            list-style: none;
+            display: inline;
+
+            li {
+                display: inline;
+                border: 1px solid;
+                padding: 13px;
+                border: none;
+                box-shadow: 1px 1px 10px gray;
+                margin-left: 10px;
+            }
+
+            li:hover {
+                cursor: pointer;
+                background-color: orangered;
+                color: white;
+                transition: all 0.7s;
+            }
+        }
+    }
+}
+
+.homeMenu {
+    width: 220px;
+    transform: translate(415px, -40px);
+    box-shadow: 1px 1px 10px gray;
+    position: absolute;
+    z-index: 3;
+    display: none;
+    ul {
+        list-style: none;
+
+        li {
+            padding: 5px 10px;
+            font-size: 18px;
+
+            a {
+                text-decoration: none;
+                color: gray;
+            }
+
+            a:hover {
+                color: orangered;
+            }
+        }
+
+    }
+}
+
+.aboutMenu {
+    width: 220px;
+    z-index: 2;
+    transform: translate(500px, -40px);
+    box-shadow: 1px 1px 10px gray;
+    display: none;
+    position: absolute;
+
+    ul {
+        list-style: none;
+
+        li {
+            padding: 5px 10px;
+            font-size: 18px;
+
+            a {
+                text-decoration: none;
+                color: gray;
+            }
+
+            a:hover {
+                color: orangered;
+            }
+        }
+    }
+}
+
+.shopMenu {
+    width: 220px;
+    z-index: 2;
+    transform: translate(570px, -40px);
+    box-shadow: 1px 1px 10px gray;
+    display: none;
+    position: absolute;
+
+    ul {
+        list-style: none;
+
+        li {
+            padding: 5px 10px;
+            font-size: 18px;
+
+            a {
+                text-decoration: none;
+                color: gray;
+            }
+
+            a:hover {
+                color: orangered;
+            }
+        }
+    }
+}
+
+.newsMenu {
+    width: 220px;
+    z-index: 2;
+    transform: translate(640px, -40px);
+    box-shadow: 1px 1px 10px gray;
+    display: none;
+    position: absolute;
+
+    ul {
+        list-style: none;
+
+        li {
+            padding: 5px 10px;
+            font-size: 18px;
+
+            a {
+                text-decoration: none;
+                color: gray;
+            }
+
+            a:hover {
+                color: orangered;
+            }
+        }
+    }
+}
+
+.pagesMenu {
+    width: 100%;
+    z-index: 2;
+    box-shadow: 1px 1px 10px gray;
+    display: none;
+    position: absolute;
+    ul {
+        list-style: none;
+        li {
+            padding: 5px 15px;
+            font-size: 18px;
+            a{
+                text-decoration: none;
+                color: gray;
+            }
+            a:hover {
+                color: orangered;
+            }
+        }
+        li:first-child {
+            background-color: rgb(214, 214, 214);
+        }
+        li:first-child a {
+            color: rgb(31, 31, 31);
+        }
+    }
+}
+
+.homeShop {
+    background-color: rgb(210, 206, 206);
+    padding: 80px 0;
+
+    i {
+        color: orangered;
+    }
+}
+
+.viewSort {
+    i {
+        font-size: 32px;
+    }
+
+    i:hover {
+        color: orangered;
+        transition: all 0.7s;
+    }
+}
+
+.search {
+    i {
+        font-size: 16px;
+        background-color: orangered;
+        color: white;
+        padding: 21px;
+    }
+
+    i:hover {
+        background-color: black;
+        transition: all 0.5s;
+    }
+
+    input {
+        width: 92%;
+        border-color: rgb(218, 216, 216);
+        font-size: 14px;
+    }
+}
+
+.box1 {
+    border: 1px solid;
+    box-shadow: 1px 1px 10px gray;
+
+    span:first-child {
+        color: orangered;
+        font-size: 24px;
+    }
+
+    p {
+        color: gray;
+
+        i {
+            color: orangered;
+        }
+    }
+
+    p:hover {
+        cursor: pointer;
+        color: orangered;
+    }
+
+    h4:hover {
+        color: orangered;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+    a {
+        i {
+            color: gray;
+            padding: 10px;
+        }
+
+    }
+
+    .icons {
+        li {
+            background-color: rgb(233, 233, 233);
+        }
+
+        li:hover {
+            background-color: orangered;
+            color: white;
+
+            i {
+                color: white;
+            }
+
+        }
+    }
+
+    .price {
+        font-size: 22px;
+        color: orangered;
+    }
+
+
+}
+
+.box2 {
+    border: 1px solid;
+    box-shadow: 1px 1px 10px gray;
+
+    span:first-child {
+        color: orangered;
+        font-size: 24px;
+    }
+
+    p {
+        color: gray;
+
+        i {
+            color: orangered;
+        }
+    }
+
+    p:hover {
+        cursor: pointer;
+        color: orangered;
+    }
+
+    h4:hover {
+        color: orangered;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+    a {
+        i {
+            color: gray;
+            padding: 10px;
+        }
+
+    }
+
+    .icons {
+        li {
+            background-color: rgb(233, 233, 233);
+        }
+
+        li:hover {
+            background-color: orangered;
+            color: white;
+
+            i {
+                color: white;
+            }
+
+        }
+    }
+
+    .price {
+        font-size: 22px;
+        color: orangered;
+    }
+
+
+}
+
+.form1 {
+    label {
+        color: rgb(103, 97, 97);
+    }
+
+    label:hover {
+        cursor: pointer;
+        color: orangered;
+    }
+}
+
+.form1List {
+    li {
+        color: rgb(103, 97, 97);
+    }
+}
+
+footer {
+    background-color: #171b2a;
+    color: white;
+    padding: 100px;
+    top: 100px;
+    position: relative;
+}
+
+
+.adress {
+    .phone:hover {
+        color: orangered;
+        cursor: pointer;
+    }
+
+    .message:hover {
+        color: orangered;
+        cursor: pointer;
+
+    }
+
+    ul {
+        li {
+            margin-right: 10px;
+        }
+    }
+}
+
+.newsletter {
+    i{
+        background-color: orangered;
+        padding: 16px;
+        color: white;
+    }
+    i:hover{
+        background-color: black;
+        cursor: pointer;
+    }
+}
+.footerCenter{
+    ul{
+        li{
+        }
+        li:hover{
+            color: orangered;
+            cursor: pointer;
+        }
+        li:hover::before{
+            content: "//";
+            margin-right: 7px;
+            color: orangered;
+            transition: all 1s;
+
+        }
+    }
+}
+.dreamHome{
+    background-color: orangered;
+    padding: 30px;
+    width: 80%;
+    position: absolute;
+    top: -70px;
+    left: 100px;
+    button{
+        border: none;
+    }
+    button:hover{
+        background-color: black;
+        color: white;
+        transition: all 1s;
+    }
+}
